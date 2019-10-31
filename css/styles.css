@@ -29,22 +29,30 @@ header{
     background-position: center center;
     font-family: 'Oswald', sans-serif;
 }
-.earbuds{
+.arts{
     padding: 30px 10%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
-.earbuds p{
+.arts p{
     margin: 10px
 }
-.ghome{
-    padding: 30px 10%;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-.ghome p{
-    margin: 10px
-}
+/*.earbuds{*/
+/*    padding: 30px 10%;*/
+/*    text-align: center;*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*}*/
+/*.earbuds p{*/
+/*    margin: 10px*/
+/*}*/
+/*.ghome{*/
+/*    padding: 30px 10%;*/
+/*    text-align: center;*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*}*/
+/*.ghome p{*/
+/*    margin: 10px*/
+/*}*/
 
 h5{
     font-size: medium;
