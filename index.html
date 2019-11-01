@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/styles.css">
 <!--    fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+<!--    jqery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body id="body">
 <nav>
@@ -67,18 +69,18 @@
 
 </section>
 </body>
-<!--<script>-->
-<!--    $('#arrow').click(function (e) {-->
-<!--        e.preventDefault();-->
-<!--        $(window).scrollTop(window.innerHeight);-->
-<!--        $('nav').css('display','block');-->
-<!--    });-->
-<!--    $(window).scroll(function () {-->
-<!--       if (window.innerHeight > document.documentElement.scrollTop){-->
-<!--           $('nav').css('display','none');-->
-<!--       }else {-->
-<!--           $('nav').css('display','block');-->
-<!--       }-->
-<!--    });-->
-<!--</script>-->
+<script>
+    // $('#arrow').click(function (e) {
+    //     e.preventDefault();
+    //     $(window).scrollTop(window.innerHeight);
+    //     $('nav').css('display','block');
+    // });
+    $(window).scroll(function () {
+       if (window.innerHeight > document.documentElement.scrollTop){
+           $('nav').css('display','none');
+       }else {
+           $('nav').css('display','block');
+       }
+    });
+</script>
 </html>
