@@ -21,6 +21,17 @@
     footer ul{
         float: none !important;
     }
+    nav{
+        height: 50px !important;
+        padding-top: 20px !important;
+    }
+    nav a{
+        font-size: 1.5rem !important;
+        margin: 0 0 0 30px !important;
+    }
+    nav img{
+        height: 50% !important;
+    }
 }
 *{
     padding: 0;
@@ -61,6 +72,9 @@ header{
 }
 .arts p{
     margin: 10px
+}
+.text{
+    padding: 20px 10%;
 }
 footer{
     background: rgb(164,164,164);
@@ -107,6 +121,32 @@ h1{
     font-size: 6rem;
     text-align: center;
     padding-top: 35vh;
+}
+/*#contact{*/
+/*    padding: 20px 10%;*/
+/*}*/
+#contact, #information{
+    min-height: calc(100vh - 270px);
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+#contact ul{
+    list-style: none;
+}
+#contact li{
+    margin-bottom: 10px;
+}
+#contact a{
+    color: #3f51b5;
+}
+#contact h1, #information h1{
+    padding-top: 30px;
+    font-size: 4rem;
+}
+#contact h2, #information h2{
+    margin: 7px 0;
 }
 .wrapper{
     display: flex;
