@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function(){
     var minh = $(window).height() - ($('.navbar').height() + $('footer').height());
     $('section').css('min-height', minh + 'px');
     }
