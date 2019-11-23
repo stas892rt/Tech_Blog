@@ -9,20 +9,22 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <!--    jqery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--    &lt;!&ndash;    jqery&ndash;&gt;-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 </head>
 <body>
-<nav style="display: block">
-    <!--    <div class="header-right">-->
-    <a href="../index.html"><img style="height: 71%; " src="../img/logo.png">ech Blog</a>
-    <a href ="info.html">about</a>
-    <a href="contact.html">contact</a>
-    <!--    </div>-->
-    <!--    <div class="header-left">-->
-    <!--        -->
-    <!--    </div>-->
-
+<nav class="navbar bg-dark fixed-top navbar-expand-sm" style="display: flex;">
+    <a class="navbar-brand" href="../index.html"><img style="width: 100%;height: 100%;" src="../img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href ="info.html">about</a>
+            <a class="nav-item nav-link" href="contact.html">contact</a>
+            <a class="nav-item nav-link" href="../registration.html">registration</a>
+        </div>
+    </div>
 </nav>
 <section id="information">
     <h1>About our Tech Blog</h1>
@@ -53,4 +55,10 @@
 </footer>
 
 </body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
