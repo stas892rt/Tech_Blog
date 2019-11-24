@@ -93,10 +93,9 @@ footer ul{
 }
 footer ull{ 
     color: #ededed;
-    list-style: none;
-    display: inline-block;
     float: right;
-    margin: 2% 6%;
+    text-align: right;
+    margin: 2% 7%;
 }
 ul a{
     color: #ffffff;
