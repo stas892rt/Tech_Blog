@@ -91,6 +91,13 @@ footer ul{
     float: right;
     margin: 2% 5%;
 }
+footer ull{ 
+    color: #565655;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin: 2% 5%;
+}
 ul a{
     color: #ffffff;
 }
