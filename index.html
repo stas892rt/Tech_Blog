@@ -170,11 +170,10 @@ weekday[6]="Saturday";
 var d = new Date();
 (d.getFullYear());
 
-
 var theDate = new Date(document.lastModified); 
 theDate.setTime((theDate.getTime()+(60*60)) ) 
 with (theDate) { 
-document.write("<i>Last updated "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+" GMT</i>") 
+document.write("<i>Last updated "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()"</i>") 
 } 
 </script> 
     <script>
