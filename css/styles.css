@@ -95,7 +95,7 @@ footer ull{
     color: #ededed;
     /*float: right;*/
     text-align: right;
-    margin: 2% 9%;
+    margin: initial;
 }
 ul a{
     color: #ffffff;
