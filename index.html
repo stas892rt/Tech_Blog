@@ -25,8 +25,7 @@
             <a class="nav-item nav-link" href ="info/info.html">about</a>
             <a class="nav-item nav-link" href="info/contact.html">contact</a>
             <a class="nav-item nav-link" href="registration.html">registration</a>
-        </div>
-    document.write( "This page was updated on " + date_lastmodified() );                                 
+        </div>                               
     </div>
 
 </nav>
@@ -154,52 +153,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- <script type="text/javascript"> document.write("Page was last modified on: " + document.lastModified); </script>
 <script type="text/javascript" src="js_lus.js"></script> !-->
-<script type="text/JavaScript" language="JavaScript">
-// format date as dd-mmm-yy
-// example: 12-Jan-99
-//
-function date_ddmmmyy(date)
-{
-  var d = date.getDate();
-  var m = date.getMonth() + 1;
-  var y = date.getYear();
-    
-  if(y >= 2000)
-  {
-    y -= 2000;
-  }
-  if(y >= 100)
-  {
-    y -= 100;
-  }
-  var mmm = 
-    ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
-    ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
-    ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
-    (10==m)?'Oct':(11==m)?'Nov':'Dec';
 
-  return "" +
-    (d<10?"0"+d:d) + "-" +
-    mmm + "-" +
-    (y<10?"0"+y:y);
-}
-
-function date_lastmodified()
-{
-  var lmd = document.lastModified;
-  var s   = "Unknown";
-  var d1;
-
-  if(0 != (d1=Date.parse(lmd)))
-  {
-    s = "" + date_ddmmmyy(new Date(d1));
-  }
-
-  return s;
-}
-document.write( "This page was updated on " + date_lastmodified() );
-    
-</script>
     // $('#arrow').click(function (e) {
     //     e.preventDefault();
     //     $(window).scrollTop(window.innerHeight);
