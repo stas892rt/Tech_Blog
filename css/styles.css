@@ -97,6 +97,9 @@ ull{
  
     text-align: right;
 }
+.container{
+
+}
 ul a{
     color: #ffffff;
 }
@@ -131,6 +134,7 @@ h1{
 /*}*/
 #contact, #information{
     font-family: 'Oswald', sans-serif;
+    margin-top:70px;
 }
 p{
     font-family: 'Montserrat', sans-serif;

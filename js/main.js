@@ -9,3 +9,12 @@ $('#submit-form').click(function (e){
         console.log($(this).val());
     })
 });
+
+
+
+// function submitData(){
+//     const fs =require('fs');
+//
+//     let data = document.getElementById('exampleInputPassword1')+' '+document.getElementById('exampleInputEmail1');
+//     fs.writeFile('login.txt',data, (err)=> {if(err)throw err;});
+// }
