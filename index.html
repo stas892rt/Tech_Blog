@@ -25,8 +25,9 @@
             <a class="nav-item nav-link" href ="info/info.html">about</a>
             <a class="nav-item nav-link" href="info/contact.html">contact</a>
             <a class="nav-item nav-link" href="registration.html">registration</a>
-        </div>
+        </div>                               
     </div>
+
 </nav>
 <!--<nav>-->
 <!--&lt;!&ndash;    <div class="header-right">&ndash;&gt;-->
@@ -139,7 +140,35 @@
                     <li><a href="articles/neunet.html">Artificial Neural Networks </a></li>
                     <li><a href="articles/chatbot.html">What Are Chatbots?</a></li>
                     <li><a href="articles/airpods.html">New Airpods Pro is here</a></li>
+ <ull>   <script language="javascript"> 
+months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
+var d=new Date();
+var weekday=new Array(7);
+weekday[0]="Sunday";
+weekday[1]="Monday";
+weekday[2]="Tuesday";
+weekday[3]="Wednesday";
+weekday[4]="Thursday";
+weekday[5]="Friday";
+weekday[6]="Saturday";
+
+var d = new Date();
+(d.getFullYear());
+
+var theDate = new Date(document.lastModified); 
+theDate.setTime((theDate.getTime()+(60*60)) ) 
+with (theDate) { 
+document.write("<i> Last updated 'index.html' "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+ " GMT</i>") 
+} 
+     </script> </ull>
                 </ul>
+<!--function addZero(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+var s = addZero(d.getSeconds());-->
             </div>
         </div>
     </div>
@@ -150,7 +179,32 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
+
+<!--<script type="text/javascript"> document.write("Page was last modified on: " + document.lastModified); </script>
+<script type="text/javascript" src="css/js_lus.js"></script> -->
+<!-- <p><script type="text/javascript" src="css/js_lus.js"></script></p> -->
+<!-- <script language="javascript"> 
+months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
+var d=new Date();
+var weekday=new Array(7);
+weekday[0]="Sunday";
+weekday[1]="Monday";
+weekday[2]="Tuesday";
+weekday[3]="Wednesday";
+weekday[4]="Thursday";
+weekday[5]="Friday";
+weekday[6]="Saturday";
+
+var d = new Date();
+(d.getFullYear());
+
+var theDate = new Date(document.lastModified); 
+theDate.setTime((theDate.getTime()+(60*60)) ) 
+with (theDate) { 
+document.write("<i>  Last updated 'index.html' "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+ " GMT</i>") 
+} 
+</script> -->
+    <script>
     // $('#arrow').click(function (e) {
     //     e.preventDefault();
     //     $(window).scrollTop(window.innerHeight);
@@ -163,5 +217,5 @@
            $('.navbar').css('display','flex');
        }
     });
-</script>
+    </script>
 </html>
